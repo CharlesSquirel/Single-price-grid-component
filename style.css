@@ -25,10 +25,14 @@ button {
 body {
   background-color: var(--bg-color);
   color: var(--white);
+  display: grid;
   font-family: "Karla", sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.625rem;
+  min-height: 100vh;
+  place-items: center;
+  width: 100vw;
 }
 
 h1 {
@@ -230,4 +234,4 @@ ul {
     border-radius: 0.1875rem;
     box-shadow: 0 0 0 0.125rem red;
   }
-}/*# sourceMappingURL=style.css.map */
+}
