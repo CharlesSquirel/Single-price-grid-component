@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/CharlesSquirel/Single-price-grid-component
 - Live Site URL: https://single-price-grid-component-pi-olive.vercel.app/
 
 ## My process
