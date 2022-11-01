@@ -50,6 +50,16 @@ button:focus {
 }
 ```
 
+I learned how to center body
+```css
+body {
+  min-height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+```
+
 ## Author
 
 - Frontend Mentor - @CharlesSquirel
