@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Join our community
-
-  30-day, hassle-free money back guarantee
-
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Frontend Mentor | Single Price Grid Component</title>
+    <meta name="description" content="Single Price Grid Component" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <!-- SECTION -->
+      <section>
+        <!-- ARTICLE 1 -->
+        <article class="article-first">
+          <h1>Join our community</h1>
+          <h2 class="article-first__h2">30-day, hassle-free money back guarantee</h2>
+          <p class="article-first__paragraph">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
+        </article>
+        <!-- // -->
+        <!-- ARTICLE 2 -->
+        <article class="article-second">
+          <h2 class="article-second__h2">Monthly Subscription</h2>
+          <!-- PRICES FLEX -->
+          <div class="article-second__price">
+            <p class="price">&dollar;29</p>
+            <p class="month">per month</p>
+          </div>
+          <!-- // -->
+          <p class="article-second__paragraph">Full access for less than &dollar;1 a day</p>
+          <button>Sign Up</button>
+          <!-- // -->
+        </article>
+        <!-- ARTICLE 3 -->
+        <article class="article-third">
+          <h2 class="article-third__h2">Why Us</h2>
+          <!-- ARTICLE 3 LIST -->
+          <ul>
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+          <!-- // -->
+        </article>
+        <!-- // -->
+      </section>
+    </main>
+  </body>
 </html>
